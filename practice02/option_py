@@ -1,0 +1,15 @@
+def main():
+ print("Welcome To Option selector ")
+ print("1. option A")
+ print("2. option B")
+ user=(input("Enter :"))
+
+ if user=='1':
+  print("you choice  option A ")
+ elif user=='2':
+  print("you choice option B")
+ else:
+  print("Try Next Time")
+if __name__=="__main__":
+ main()
+
